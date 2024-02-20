@@ -7,12 +7,16 @@ def main():
     if not os.path.exists("edit.txt"):
         file("edit.txt", 'w').close()
     
-    #edit, commit, and push a random number of changes between 20 and 100
-    #if file is bigger than 5kb write instead of ammend change to essentially recreate the file
+   
+   
+    
+    #min = #
+    #max = #
+    min = int(input("Minimum # of contributions: "))
+    max = int(input("Maximum # of contributions: "))
     i = 0
-    #replace the entire line below if you don't want to have to interact with the program every day
-    #while i <=random.randrange(min, max)
-    while i <= random.randrange(input("Minimum # of contributions: "), input("Maximum # of contributions: ")):
+ #if file is bigger than 5kb write instead of ammend change to essentially recreate the file
+    while i <=random.randrange(min, max):
         #size in Kilobytes
         size = os.stat("edit.txt").st_size / 1000
         if size <= 5:

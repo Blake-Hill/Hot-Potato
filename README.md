@@ -6,7 +6,7 @@ Hot Potato is a Python program that assists job-searching developers in keeping 
 * Download [hot_potato.py](www.google.com)
 * Create a new GitHub repository
 * Place hot_potato.py inside the repository
-* If you don't want to have to enter a min and max number of contributions every run go to line 14 and copy the entire line onto line 15 and replace "min" and "max" with your desired # of contributions
+* By default you are prompted for a min and max # of contributions every time you run the program, if you would like to set the numbers once and be done with it replace the # symbol in lines 13 and 14 with your min and max contributions respectively, and then insert them into lines 15 and 16
 * Right click inside your repository and click open in terminal
 * Run python hot_potato.py in the terminal
 ```
